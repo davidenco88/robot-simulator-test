@@ -4,10 +4,13 @@
   "description": "",
   "main": "robot.js",
   "scripts": {
-    "test": "Escribe el script para correr las pruebas",
+    "test": "jest --watch --coverage",
     "test:coverage": "Escribe el script para ver la covertura de las pruebas"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
